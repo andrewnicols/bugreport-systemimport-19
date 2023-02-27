@@ -1,0 +1,18 @@
+{
+  "name": "systemimport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-system-import-transformer": "^4.0.0"
+  }
+}
